@@ -11,18 +11,29 @@
         android:padding="10dp"
         android:src="@drawable/ic_person" />
 
-    <TextView
-        android:id="@+id/tv_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Title"
-        android:textSize="30dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_tel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="01022223333"
-        android:textSize="30dp" />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01022223333"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
 
 </LinearLayout>
